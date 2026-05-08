@@ -1,0 +1,35 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Raw/input data files
+# Do not upload microbiome feature tables, metadata, or taxonomy files unless allowed.
+data/*
+!data/README.md
+!data/.gitkeep
+
+# Analysis output folders
+out_ml/
+results/*
+!results/README.md
+!results/.gitkeep
+
+# Logs and temporary files
+*.log
+*.tmp
